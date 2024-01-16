@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+
+ 
+}
+
+.header{
+    width:100%;
+    height: 75px;
+    background-position: center;
+    background-size: cover;
+    padding:0.5%;
+    display:flex;
+    justify-content: center;
+
+}
+
+.header a{
+    color: #000;
+    font-size: 16px;
+    border: 1px hidden;
+    padding:13px 17px;
+    border-radius:50px;
+    margin: 0px -10px;
+}
+
+.header a:hover{
+    color:#fff;
+    text-decoration: none;
+    background-color: rgb(7, 1, 14);
+}
+nav{
+    width:100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    padding:20px 8%;
+    display:flex;
+    justify-content: space-between;
+}
+nav p{
+    color: #000 ;
+    font-size: larger;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-size: 15px;
+}
+.my-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    font-size:small;
+    color: white!important;
+    margin-left: 5px;
+    padding: 1rem;
+    transition: all 0.3s;
+    border: 2px solid;
+    background-color: blueviolet !important;
+    border-radius: 25px;
+}
+
+.btn-info:hover{
+    background-color: darkblue;
+}
+
+.container{
+    padding-bottom: 2%;   
+    
+}
+
+table{
+    padding-top: 10px;
+}
+
+th{
+    text-align: center;
+    padding: 20px 15px;
+}
+
+td{
+    text-align: center;
+    padding: 3px;
+}
+
+td p{
+    margin-top: 5px;
+}
+
+.table-css{
+    width: 70%; 
+    border-radius: 25%;
+}
+
+thead{
+    padding: 20px 20px !important;
+    background-color: rgb(239, 241, 93);
+}
+
+.row-light{
+    background-color: rgb(244, 240, 247);
+}
+
+.row-dark{
+    background-color: rgb(230, 223, 236);
+    
+}
+
